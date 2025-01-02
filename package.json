@@ -1,0 +1,21 @@
+{
+  "name": "my-openai-project",
+  "version": "1.0.0",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "openai": "^3.0.0",  // Dependensi untuk OpenAI SDK
+    "next": "12.0.0"     // Pastikan Next.js sesuai dengan versi yang diinginkan
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "engines": {
+    "node": "14" // Pastikan menggunakan Node.js version 14 ke atas
+  }
+}
